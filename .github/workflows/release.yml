@@ -15,7 +15,6 @@ jobs:
         with:
           node-version: "12.x"
       - run: yarn install --frozen-lockfile
-      - run: yarn run build --if-present
       - run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
