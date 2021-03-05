@@ -16,7 +16,9 @@ jobs:
           node-version: "12.x"
       - run: yarn install --frozen-lockfile
       - name: Build the app
-        run: ./gradlew build
+        run: |
+          cd android
+          ./gradlew build
       - run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
