@@ -1,3 +1,15 @@
+# [1.1.0](https://github.com/ravali121/ReactNativeLocationTracking/compare/v1.0.0...v1.1.0) (2021-03-05)
+
+
+### Bug Fixes
+
+* build inside android folder ([acbd6dd](https://github.com/ravali121/ReactNativeLocationTracking/commit/acbd6dd95b5d2dfd3670f9b422d095923633c70f))
+
+
+### Features
+
+* android build to ci ([56e3c35](https://github.com/ravali121/ReactNativeLocationTracking/commit/56e3c3523d87e4662678ff8773af6c5a5fdd096e))
+
 # 1.0.0 (2021-03-05)
 
 
