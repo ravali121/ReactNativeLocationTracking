@@ -1,7 +1,7 @@
 const config = {
   branches: [
     {
-      name: "master",
+      name: "ch-semantic-release-test",
     },
     {
       name: "develop",
